@@ -4,7 +4,7 @@
  > note : https://www.pluralsight.com/guides/file-structure-react-applications-created-create-react-app
 
 - src
-- components / containers
+- components / containers / environments / services
 - scss, component, redux, view, index
 
 #### Local Environment Setting
