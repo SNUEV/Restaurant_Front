@@ -10,9 +10,7 @@ export class Map extends Component {
     );
   }
 
-  componentDidMount() {
-
-  }
+  componentDidMount() {}
 
 }
 
