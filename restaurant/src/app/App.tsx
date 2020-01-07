@@ -1,18 +1,12 @@
 import React from 'react';
 
-import { Map } from './map/Map';
 import './App.scss';
+import { Map } from './containers/map/Map';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
-
-      <body>
-        
-      </body>
+      <Map></Map>
     </div>
 
   );

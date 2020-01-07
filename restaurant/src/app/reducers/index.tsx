@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
-const reducers = combineReducers({
+import { mapReducers } from '../containers/map/reducers';
 
+const reducers = combineReducers({
+  mapReducers,
 });
 
 export default reducers;

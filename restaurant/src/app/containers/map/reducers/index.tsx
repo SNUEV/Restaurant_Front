@@ -1,7 +1,12 @@
 import { combineReducers } from 'redux';
 
-const mapReducers = combineReducers({
+function testreducer(state="", action:any) {
+  switch(action.type) {
+    default: 
+      return ""
+  }
+}
 
+export const mapReducers = combineReducers({
+  testreducer,
 });
-
-export default mapReducers;

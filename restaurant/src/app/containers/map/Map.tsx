@@ -6,11 +6,14 @@ export class Map extends Component {
 
   render() {
     return(
-      <div className="default_map"></div>
+      <div className="default_map">
+          hello world
+      </div>
     );
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+  }
 
 }
 
