@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 
 import './Map.scss';
 
-export class Map extends Component {
+export class MainMap extends Component {
 
   render() {
     return(
-      <div className="default_map">
-          hello world
-      </div>
+      <div>This is main map</div>
     );
   }
 
@@ -17,3 +15,4 @@ export class Map extends Component {
 
 }
 
+// { lat: 37.481417, lng: 126.952778}}
