@@ -5,7 +5,9 @@ import './SearchBar.scss';
 export class SearchBar extends Component {
 
   render() {
-    return <div>This is SearchBar</div>
+    return (
+      <div></div>
+    );
   }
 
   componentDidMount() {
