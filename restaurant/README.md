@@ -24,4 +24,9 @@
 
 - npm start (localhost:3000)
 
+### References
+
+- Searchbar tag added 
+> https://medium.com/@jerrylowm/build-a-tags-input-react-component-from-scratch-1524f02acb9a
+
 
