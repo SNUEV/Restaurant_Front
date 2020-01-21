@@ -14,7 +14,6 @@ function App() {
       <List></List>
       <MainMap></MainMap>
     </div>
-
   );
 }
 
