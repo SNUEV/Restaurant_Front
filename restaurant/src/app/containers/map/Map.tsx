@@ -7,7 +7,9 @@ export class MainMap extends Component {
 
   render() {
     return(
-      <div id="map">This is main map</div>
+      <div className="map-wrapper">
+        <div id="map"></div>
+      </div>
     );
   }
 
