@@ -8,9 +8,18 @@ export class Header extends Component {
   render() {
     return (
       <Jumbotron>
-        <h1>Restaurant</h1>
-        <p>bookings.com을 참고하세요</p>
+        <div className="nav">
+          <div className="logo">LOGO</div>
+          <div>메뉴1</div>
+          <div>메뉴2</div>
+          <div>마이페이지</div>
+        </div>
+        <div className="title">
+          <h1>기가 맥힌 멘트!!!</h1>
+          <h1>Restaurant</h1>
+        </div>
       </Jumbotron>
+
     )
   }
 
