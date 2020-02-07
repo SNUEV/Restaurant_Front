@@ -1,20 +1,26 @@
-.jumbotron{
-    padding:1rem;
-    background-image:url("./header.jpg");
-    background-position-y: -150px;
+.nav{
+    display:flex;
+    justify-content:space-around;
+    font-size:1.2rem;
     font-weight:bold;
-    color:white; 
-    .nav{
-        display:flex;
-        justify-content:space-around;
-        font-size:1.2rem;
-        margin-bottom:3rem;
-        .logo{
-            margin-right:60%;
-        }
+    margin:1rem;
+
+    .logo{
+        margin-right:auto;
     }
+    .menuLink{
+        margin-left:2rem;
+    }
+}
+
+.banner{
+    padding:1rem;
+    background-image:url("./img/banner.jpg");
+    background-position-y: -150px;
     
     .title{
-        margin:4rem;
+        font-weight:bold;
+        color:white; 
+        margin:5rem;
     }
 }

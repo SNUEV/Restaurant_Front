@@ -1,0 +1,10 @@
+.restaurant-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .restaurantItem{
+        width:20%;
+        margin:1rem;
+    }
+}
