@@ -4,8 +4,14 @@
  > note : https://www.pluralsight.com/guides/file-structure-react-applications-created-create-react-app
 
 - src
-- components / containers / environments / services
-- scss, component, redux, view, index
+- components / containers / environments / store
+- components
+    - 재사용 가능한 구조들을 이곳에 정리합니다.
+- containers
+    - view 단위로 구성합니다.
+    - 범위가 커지면 pages로 분리하는 방안도 생각
+- store
+    - action, effect, reducer, api등의 상태관리를 이곳에 저장합니다.
 
 
 #### Slack Bot Added
@@ -23,6 +29,7 @@
 - npm i (in the directory where package.json exists)
 
 - npm start (localhost:3000)
+
 
 ### References
 
